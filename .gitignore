@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+pipeline_without_airflow/clear_pipeline.ipynb
+
+.env
