@@ -18,3 +18,7 @@ https://exchangerate.host/documentation
 
 # 06
 Использовал weight_rule = absolute, чтобы у task вес был только тот, который я задал, и не зависил от task до или после.
+
+# 07
+Использовал оператор SQLExecuteQueryOperator, который через коннектор postgres_default подключается к базе данных и выполняет sql запрос, который я укажу.
+
