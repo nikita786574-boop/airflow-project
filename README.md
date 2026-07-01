@@ -22,3 +22,9 @@ https://exchangerate.host/documentation
 # 07
 Использовал оператор SQLExecuteQueryOperator, который через коннектор postgres_default подключается к базе данных и выполняет sql запрос, который я укажу.
 
+# 08
+Для создания содключения к базе данных clickhouse параметры (host, port, login, password) будут получаться через base_hook
+В этом примере все переменные скрыты в том числе пути к файлам.
+Переменные создаются в UI airflow
+Для получения переменых используется Variable.get()
+
