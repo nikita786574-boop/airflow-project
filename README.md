@@ -44,3 +44,6 @@ https://exchangerate.host/documentation
 Используем ClickHouseOperator для выполнения SQL запросов над базой данных. 
 
 Для загрузки данных прямо в ClickHouse используется табличная функция URL
+
+# 12
+Использование HTTPSensor и HTTPOperator.
