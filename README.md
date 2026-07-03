@@ -58,3 +58,5 @@ https://exchangerate.host/documentation
 
 Добавился узел create_table, где используется clickhouse operator для создания таблицы.
 
+# 15
+Автогенерация task на основе ClickHouseOperator на чтение данных из файлов.
