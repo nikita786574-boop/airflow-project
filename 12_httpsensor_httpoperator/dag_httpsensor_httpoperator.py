@@ -1,15 +1,14 @@
 from airflow import DAG
 from airflow.providers.http.operators.http import HttpOperator
 from airflow.providers.http.sensors.http import HttpSensor
-from airflow.operators.python import PythonOperator
-from airflow.utils.dates import days_ago
+
 
 import json
 
 
 dag = DAG(
     dag_id='eklfr',
-    schedule_interval='@daily',  # Запускать вручную
+    schedule_interval='@daily',  
     start_date=days_ago(1)
 )
 

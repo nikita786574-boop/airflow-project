@@ -47,3 +47,8 @@ https://exchangerate.host/documentation
 
 # 12
 Использование HTTPSensor и HTTPOperator.
+
+
+# 13 
+Настройка уведомлений через telegram при падении DAG
+
