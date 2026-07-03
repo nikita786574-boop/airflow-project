@@ -52,3 +52,9 @@ https://exchangerate.host/documentation
 # 13 
 Настройка уведомлений через telegram при падении DAG
 
+
+# 14
+Пайплайн выгрузки данных с использованием clickhouse operator и нотификации.
+
+Добавился узел create_table, где используется clickhouse operator для создания таблицы.
+
