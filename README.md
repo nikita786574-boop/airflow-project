@@ -74,3 +74,7 @@ https://exchangerate.host/documentation
 
 Переписанная версия с правильным полиморфизмом в файле `_v2`.
 Теперь при создании `ClickHouseTransferHook` передаём туда conn_id, отрабатывает инициализатор базового класса. В методе `insert_df_to_db` используем метод execute, унаследованный также от базового `ClickHouseHook`.
+
+# 18
+Пайплайн выгрузки данных из api валют, преобразования, загрузки в clickhouse.
+Тепреь используется `ClickHouseOperator` и `ClickHouseHook`. Не создаётся подключения отдельно через клиент ClickHouse, всё выполняется через Airflow и его плагин для ClickHouse.
