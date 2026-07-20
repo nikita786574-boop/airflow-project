@@ -1,0 +1,6 @@
+apache-airflow>=2.7
+airflow-clickhouse-plugin
+clickhouse-driver
+pandas
+requests
+python-dotenv
